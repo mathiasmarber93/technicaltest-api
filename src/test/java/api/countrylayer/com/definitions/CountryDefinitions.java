@@ -66,12 +66,6 @@ public class CountryDefinitions {
                 .post(baseUrl + "/alpha" + "/create-country" + "?access_key=" + apiKey);
     }
 
-    @Then("the POST request get the status code {int}")
-    public void getPostStatusCode(int expectedResponseCode){
-        assertThat(responseCode).isEqualTo(expectedResponseCode);
-        response.prettyPrint();
-    }
-
     private String getCountryCode(String country) {
         switch (country) {
             case "US":

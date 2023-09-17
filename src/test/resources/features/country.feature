@@ -24,4 +24,4 @@ Feature: Country Information
 
   Scenario: Post new country
     When I send a POST request to create a new country
-    Then the POST request get the status code 201
+    Then the response code should be 201
