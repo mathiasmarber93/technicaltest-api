@@ -2,24 +2,26 @@
 Feature: Country Information
 
   Background:
-  Given the base URL and API Key are configured
+  #Given the base URL and API Key are configured
+    Given the base URL is configured in serenity.properties
+    And the API key is configured in serenity.properties
 
   Scenario: Get US country information
-    When make a GET request to "US"
-    Then "US" get the status code 200
+    When I request information for country "US"
+    Then the response code should be 200
 
   Scenario: Get DE country information
-    When make a GET request to "DE"
-    Then "DE" get the status code 200
+    When I request information for country "DE"
+    Then the response code should be 200
 
   Scenario: Get GB country information
-    When make a GET request to "GB"
-    Then "GB" get the status code 200
+    When I request information for country "GB"
+    Then the response code should be 200
 
   Scenario: Get information from non existent country
-    When make a GET request to "ABC"
-    Then "ABC" get the status code 404
+    When I request information for country "ABC"
+    Then the response code should be 404
 
   Scenario: Post new country
-    When make a POST request inserting "<name>", "<alpha2_code>" and "<alpha3_code>"
+    When I send a POST request to create a new country
     Then the POST request get the status code 201
