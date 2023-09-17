@@ -51,7 +51,7 @@ public class CountryDefinitions {
         response = SerenityRest.given()
                 .contentType(ContentType.JSON)
                 .header("Authorization", API_KEY)
-                .body(requestBody)
+                .body(requestBody).log().all()
                 .post(URI + "/create-country");
     }
 
