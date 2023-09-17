@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/country.feature",
+        features = "src/test/resources/features",
         glue = "api.countrylayer.com.definitions",
         tags = "@Test"
 )

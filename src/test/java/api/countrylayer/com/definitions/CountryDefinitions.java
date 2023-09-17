@@ -12,6 +12,7 @@ public class CountryDefinitions {
 
     private static final String URI = "http://api.countrylayer.com/v2";
     private static final String API_KEY = "?access_key=80829a29de1506ad64d4d715b5da0183";
+
     public Response response;
 
     @Given("the base URL and API Key are configured")
