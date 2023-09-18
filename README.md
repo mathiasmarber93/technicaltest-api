@@ -97,5 +97,6 @@ In the report, in the GET requests result sections, there will be several GET re
 ![img_10.png](img_10.png)
 
 ![img_9.png](img_9.png)
+
 You can also refer my serenity report for the technical test API generated 09-17-2023 20:46 in the following link:
 https://mathiasmarber93.github.io/technicaltest-api-report/
