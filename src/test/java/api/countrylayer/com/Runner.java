@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "api.countrylayer.com.definitions",
-        tags = "@Test"
+        tags = "@API"
 )
 public class Runner {
 }

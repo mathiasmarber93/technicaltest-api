@@ -1,8 +1,7 @@
-@Test
+@API
 Feature: Country Information
 
   Background:
-  #Given the base URL and API Key are configured
     Given the base URL is configured in serenity.properties
     And the API key is configured in serenity.properties
 
