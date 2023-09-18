@@ -25,6 +25,7 @@ Follow these steps to get started with this project:
    ```
    
 2. Or click Download ZIP
+
 ![img.png](img/img.png)
 
 3. Open Intellij IDEA and open the project
