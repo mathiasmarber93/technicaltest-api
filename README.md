@@ -62,7 +62,7 @@ Follow these steps to get started with this project:
 - Type the email and password created
 - Copy the API Key
 ![img_5.png](img/img_5.png)
-- Go to Intellij IDEA and open the ```serenity.properties``` and paste the API Key in the  ```api.key ``` property
+- Go to Intellij IDEA, open the ```serenity.properties``` and paste the API Key in the  ```api.key ``` property
 ![img_6.png](img/img_6.png)
 
 ## Project Structure
